@@ -233,7 +233,7 @@ const BrandsBusiness = ({ index }) => {
                         <div className='details-card dt4'>
                             <img src="/brands-n-business/bab-bri4.png" alt="" />
                             <p>
-                                Nirlep, a renowned brand in the world of non-stick cookware, stands out for its deep understanding of diverse cooking practices across India. With over 50 years of experience, Nirlep continues to redefine culinary experiences. With a relentless focus on modern lifestyles, the brand has pioneered advanced non-stick coatings and specialised heat-resistant cookware, delivering convenience and superior quality to our customers. Check out all the new cookware launched.
+                                Nirlep, a renowned brand in the world of non-stick cookware, stands out for its deep understanding of diverse cooking practices across India. With over 50 years of experience, Nirlep continues to redefine culinary experiences. With a relentless focus on modern lifestyles, the brand has pioneered advanced non-stick coatings and specialised heat-resistant cookware, delivering convenience and superior quality to our customers. 
                             </p>
                             {/* <a className='linka lb' href="https://www.nirlep.com/"><div class="btna bb"> Know More</div> </a> */}
                             <a
