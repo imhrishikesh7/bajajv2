@@ -1,0 +1,123 @@
+.gradient-bg-footer{
+    position: relative;
+    background: linear-gradient(45deg, #208ee9 41%, rgba(41, 57, 144, 1) 100%);
+    height: 460px;
+    margin: 50px auto;
+    align-items: center;
+}
+.footer_area {
+    /* position: absolute; */
+    height: 90%;
+    /* border: 2px solid black; */
+    /* overflow: hidden; */
+    background-color: #fff; /* Set background color to white */
+    width: 100%; /* Set width to 100% */
+    margin: auto ; /* Adjust margin as needed */
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden; /* Hide horizontal overflow */
+    box-shadow: 0 8px 48px 8px rgba(47, 91, 234, 0.175);
+    padding: 50px;
+}
+
+.single-footer-widget {
+    /* border: 2px solid black; */
+
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    margin: auto;
+    /* border: 2px solid black; */
+    height: 300px;
+    justify-content: center;
+}
+
+.single-footer-widget .copywrite-text a {
+    color: #747794;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.single-footer-widget .copywrite-text a:hover,
+.single-footer-widget .copywrite-text a:focus {
+    color: rgba(41,57,144,1);
+}
+
+.single-footer-widget .widget-title {
+    margin-bottom: 1.5rem;
+
+}
+
+.single-footer-widget .footer_menu li a {
+    color: #747794;
+    text-decoration: none;
+
+    margin-bottom: 1rem;
+    display: block;
+    font-size: 1rem;
+}
+
+.single-footer-widget .footer_menu li a:hover,
+.single-footer-widget .footer_menu li a:focus {
+    color: rgba(41,57,144,1)
+}
+
+.single-footer-widget .footer_menu li:last-child a {
+    margin-bottom: 0;
+}
+
+.footer_social_area {
+    position: relative;
+    z-index: 1;
+}
+
+.footer_social_area a {
+    border-radius: 50%;
+    height: 40px;
+    text-align: center;
+    width: 40px;
+    display: inline-block;
+    line-height: 40px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-right: 10px;
+}
+
+.footer_social_area img {
+    width: 40px;
+    margin: 3px;
+}
+
+.footer_social_area a:hover,
+.footer_social_area a:focus {
+    color: #ffffff;
+}
+
+@-webkit-keyframes bi-cycle {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+@keyframes bi-cycle {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+ol li,
+ul li {
+    list-style: none;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}

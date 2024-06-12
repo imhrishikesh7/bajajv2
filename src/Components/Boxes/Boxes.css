@@ -1,0 +1,114 @@
+.boxes {
+    /* position: absolute; */
+    top: 500%;
+    z-index: +1;
+    width: 100%;
+    margin: auto;
+    /* border: 2px solid black; */
+}
+.container-boxes {
+    display: flex;
+    /* background: linear-gradient(90deg, rgba(32, 142, 233, 1) 41%, rgba(41, 57, 144, 1) 100%); */
+    background-image: url('/bg-box.jpg');
+
+    padding: 10px 50px;
+    border-radius: 25px;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    height: 270px;
+}
+
+.box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 22px;
+    background-color: #fff;
+    width: 150px;
+    height: 140px;
+    transition: flex-grow 0.5s ease, width 0.5s ease; /* Add transition for flex-grow and width properties */
+    cursor: pointer;
+    position: relative;
+}
+
+.box:hover {
+    flex-grow: 2;
+    width: 200px; /* Adjust the width as needed */
+}
+
+.box.active {
+    flex-grow: 2;
+    width: 200px; /* Adjust the width as needed */
+}
+
+.box img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px; /* Adjust the position as needed */
+    right: 10px; /* Adjust the position as needed */
+    opacity: 0; /* Initially hide the image */
+    transition: opacity 0.5s ease; /* Add transition for opacity */
+}
+
+.box:hover img {
+    opacity: 1; /* Show the image on hover */
+}
+
+.box h6 {
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    text-align: center; /* Center the heading */
+    transition: text-align 0.5s ease; /* Add transition for text-align property */
+    position: relative; /* Add relative positioning */
+    left: 0; /* Initial left position */
+}
+
+.box:hover h6 {
+    text-align: left; /* Move heading to left after box grows */
+}
+
+.box p {
+    text-align: left;
+    width: fit-content; /* Initially set width to 0 */
+    line-height: 1.2;
+    font-size: 14px;
+    opacity: 0;
+    display: none;
+    overflow: hidden;
+    transition: display 10s ease; /* Adjust transition properties */
+}
+
+.box.active p {
+    width: 80%; /* Adjust width to match expanded width */
+    opacity: 1; /* Show the paragraph */
+    display: inline-block;
+    transition: opacity 1s ease; /* Adjust transition properties */
+
+}
+
+
+.box:hover p {
+    opacity: 1;
+    /* display: inline-block; */
+    max-height: 100px;
+}
+
+.hide {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.show {
+    width: 80%; /* Adjust width to match expanded width */
+    opacity: 1; /* Show the paragraph */
+    display: inline-block;
+    transition: display 10s ease; /* Adjust transition properties */
+}

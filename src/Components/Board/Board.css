@@ -1,0 +1,71 @@
+.board-container-outer {
+    position: relative;
+    /* border: 2px solid red; */
+    /* height: 90vh; Adjust the height as needed */
+    width: 90%;
+    height: 70vh;
+    margin: 10% auto;
+    margin-top: 5%;
+}
+.dynamic-elements{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.board-container-outer .board-container {
+    position: absolute;
+    top: 0;
+    height: 100%; /* Ensure full height */
+    width: 100%;
+    background-image: url('./bg-box.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: -1; /* Ensure it's above other content */
+}
+
+.board-wrapper{
+    width: fit-content;
+    margin-left: 5%;
+    z-index: 2;
+}
+.heading-bar-board{
+    /* color: #fff; */
+    
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+    text-align: justify;
+}
+.board-heading{
+    color: #fff;
+}
+.heading-bar-board .board-heading2{
+    color: #fff;
+    margin: 0 auto;
+    font-size: 3em;
+}
+.heading-bar-board h1{
+    font-weight: bold;
+    font-size: 5em;
+    margin: 0 auto;
+    color: #fff;
+    z-index: 1000;
+}
+.bob-text{
+    color: #fff;
+    width: 550px;
+    font-size: 22px;
+    text-align: left;
+    margin: 30px 0 0 0;
+}
+.best-of-bajaj{
+    width: 50%;
+    height: 100%;
+    /* margin: auto; */
+    /* border: 2px solid red; */
+}

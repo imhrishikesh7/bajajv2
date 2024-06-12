@@ -1,0 +1,344 @@
+.bab-container{
+    width: 100%;
+    margin: auto;
+    height: 70vh;
+    position: relative;
+}
+
+.bab-container .bab-hero {
+    position: sticky;
+    top: 15%; 
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items:end;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 2px solid black; */
+    margin: auto;
+    right: 0;
+    height: 85%;
+    width: 90%;
+  }
+  
+  .bab-hero .bab-content {
+    width: 45%;
+    /* border: 2px solid black; */
+    /* border: 2px solid black; */
+    text-align: left;
+    justify-content: center; /* add this line */
+  }
+.bab-container .bab-content h2{
+    font-weight: 600;
+    margin: 2% 0;
+    display: inline-block;
+    font-size: 3vw;   
+    background-image: linear-gradient(90deg in oklab, #2B3DA1 , #005EAB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bab-container .bab-content p{
+    font-size: 24px;
+    font-weight: 500;
+}
+.bab-hero-right{
+    width: 40%;
+    height: 500px;
+    position: relative;
+}
+.cloudy-div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 1%;
+    /* border: 2px solid black; */
+    top: 0;
+    border-radius: 50%;
+    background-color: rgb(132, 186, 236, 0.7);
+    filter: blur(180px) contrast(1);
+    box-shadow: 0 0 20px #84baec;
+  }
+
+.bab-2-heading{
+    position: absolute;
+    font-weight: 600;
+    /* border: 2px solid black; */
+    /* margin: 2% 0; */
+    bottom: -45%;
+    left: 50%;
+    transform: translate(-50%);
+    display: inline-block;
+    font-size: 3vw;   
+    background-image: linear-gradient(90deg in oklab, #2B3DA1 , #005EAB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* .color-bg{
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    border: 2px solid black;
+} */
+
+
+
+
+
+  .gallery {
+    margin-top: 20%;
+    display: flex;
+    /* border: 2px solid black; */
+    position: relative;
+    /* height: 100vh; */
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.rightblock {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .photo-container {
+    width: 40vw;
+    height: 40vw;
+    position: relative;
+} */
+
+.photo {
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.dynamic-color{
+    /* background: linear-gradient(45deg, rgba(32, 142, 233, 1) 41%, rgba(41, 57, 144, 1) 100%); */
+    border-radius: 0 30px 30px 0;
+    /* margin-left: 5%;     */
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 60%;
+    /* padding: 3%; */
+}
+/* .dc1{
+    background-color: rgba(32, 142, 233, 1);
+}
+.dc2{
+    background-color: rgb(17, 16, 16);
+}
+.dc3{
+    background-color: rgb(234, 227, 227);
+} */
+
+.photo img {
+    width: 90%;
+    height: 90%;
+    border-radius: 16px;
+    object-fit: cover;    
+}
+
+.details {
+    height: 100vh;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vw;
+    text-align: left;
+    margin-left: auto;
+}
+.dt1{
+    /* background-color: rgba(32, 142, 233, 1); */
+    color: #fff;
+}
+.dt2{
+    /* background-color: #1d1d1d; */
+
+    color: #fff;
+
+}
+.dt3{
+    color: #000;
+}
+.dt5{
+    color: #fff;
+}
+.details-card{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    padding: 3% 5%;
+    font-size: 24px;
+    height: 55%;
+    font-weight: 500;
+    border-radius: 30px 0 0 30px;
+
+}
+.details-card h1{
+    margin: 0;
+}
+
+.dt1 img{
+    width:  45%;
+}
+.dt2 img{
+    width:  15%;
+}
+.dt3 img{
+    width:  25%;
+}
+.dt4 img{
+    width:  14%;
+    margin-bottom: 2%;
+}
+
+/* ******************************* */
+.linka {
+    text-decoration: none;
+    color: white;
+    width: 220px;
+    height: 50px;
+    /* margin */
+  }
+  .lb{
+    color: #000;
+  }
+  
+  .linka {
+    display: inline-block; /* Ensure the link is displayed as an inline-block */
+  }
+  
+  .btna {
+    margin: 0 auto;
+    text-align: center;
+    transition: all ease 0.5s;
+    letter-spacing: 3px;
+    position: relative;
+    display: inline-block; /* Ensure the button text is displayed as an inline-block */
+    padding-bottom: 5px; /* Add some padding to the bottom */
+  }
+  
+  .btna:hover {
+    transform: translateX(30px); /* Use transform for smoother animation */
+  }
+  
+  .btna:before {
+    content: "→";
+    transition: all ease 0.5s;
+    position: absolute;
+    left: -20px; /* Adjust the position */
+    opacity: 0;
+  }
+  
+  .btna:hover:before {
+    left: -35px; /* Move arrow to the left on hover */
+    opacity: 1;
+  }
+  
+  .btna:after {
+    content: "";
+    border-bottom: 2px solid white;
+    width: 0;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all ease 0.5s;
+  }
+  .bb:after{
+    border-bottom: 2px solid #000;
+
+  }
+  .btna:hover:after {
+    width: 100%;
+  }
+  
+  .btn-posnawr-bab {
+    text-align: center;
+    text-decoration: none;
+    /* line-height: 80px; */
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 10vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+    padding: 1.1vh;
+    z-index: 1;
+    /* height: 8vh; */
+    /* max-width: 250px; */
+    border-radius: 50px;
+    /* margin: 1rem auto; */
+    /* text-transform: uppercase; */
+  }
+  .bpb1{
+    color: white;
+    border: 1px solid white;
+
+  }
+  .bpb1 span{
+    background-color: white;
+  }
+  .bpb1:hover{
+    color: #0f68c9;
+  }
+  .bpb2{
+    color: white;
+    border: 1px solid white;
+
+  }
+  .bpb2 span{
+    background-color: white;
+  }
+  .bpb2:hover{
+    color: #000;
+  }
+  .bpb3{
+    color: #000;
+    border: 1px solid #000;
+
+  }
+  .bpb3 span{
+    background-color: #000;
+  }
+  .bpb3:hover{
+    color: #fff;
+  }
+
+  .btn-posnawr-bab span {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 100%;
+    -webkit-transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+
+  .btn-posnawr-bab:hover span {
+    width: 225%;
+    height: 562.5px;
+  }
+  .btn-posnawr-bab:active {
+    background-color: #0f68c9;
+  }

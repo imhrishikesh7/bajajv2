@@ -1,0 +1,444 @@
+/* ********************************************* */
+/* ESG Hero CSS Start */
+/* ********************************************* */
+.esg-container{
+    width: 95%;
+    margin: auto;
+    padding-top: 7%;
+}
+.esg-hero{
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+}
+.esg-content{
+    text-align: left;
+    width: 50%;
+    height: fit-content;
+}
+.esg-h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin: 2% 0;
+    background-image: linear-gradient(90deg in oklab, #235803, #45892A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.esg-p{
+    color: #252525;
+    font-size: 24px;
+    width: 90%;
+}
+.esg-img{
+    position: relative;
+    width: 50%;
+}
+.esg-img .esg-img1{
+    width: 90%;
+}
+.esg-img .esg-img2{
+    position: absolute;
+    width: 40%;
+    left: -7%;
+    bottom: -15%;
+}
+/* ********************************************* */
+/* ESG Hero CSS End */
+/* ********************************************* */
+/* ********************************************* */
+ /* ESG ii CSS Start */
+/* ********************************************* */
+.esg-container-ii{
+    margin: 5% 0;
+   width: 100%;
+   /* height: 70vh;  */
+   padding: 2%;
+   background-color: rgb(211, 211, 211, 0.4);
+}
+.esgii-wrap{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: left;
+}
+.esgii-wrap .esgii-img{
+    width: 50%;
+}
+.esgii-wrap .esgii-img img{
+    width: 100%;
+}
+.esgii-wrap .esgii-content{
+    width: 50%;
+}
+/* ********************************************* */
+/* ESG ii CSS End */
+/* ********************************************* */
+
+/* ********************************************* */
+/* ESG iii CSS Start */
+/* ********************************************* */
+.esg-container-iii{
+    width: 100%;
+    padding: 2% 0;
+}
+.esg-container-iii h2{
+    font-size: 36px;
+    margin-bottom: 2%;
+    font-weight: 700;
+}
+.pillar-row{
+    margin: 3% 0;
+    width: 95%;
+    height: 35vh;
+    justify-content: space-evenly;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.pillar-row .pillar-img{
+    width: 23%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.pillar-video{
+    width: 100%;
+    filter: brightness(0.8);
+
+    /* height: 100%; */
+    scale: 2.5;
+}
+.pillar-p{
+    bottom: 2%;
+    left: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    transform: translateX(-50%);
+    color: white;
+    position: absolute;
+}
+.pillar-row img{
+    width: 100%;
+}
+/* ********************************************* */
+/* ESG iii CSS End */
+/* ********************************************* */
+/* ********************************************* */
+/* ESG iv CSS Start */
+/* ********************************************* */
+.esg-iv{
+    width: 100%;
+    margin: 5% 0;
+}
+.esgiv-thead{
+    width: 95%;
+    margin: auto;
+    /* justify-content: space-around; */
+    /* color: white; */
+}
+.esgiv-title {
+    cursor: pointer;
+    border-radius: 20px 20px 0 0;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(to right, #e3e1e1, #ffffff);
+    transition: background-image 0.5s ease-in-out; /* Add transition for background */
+}
+
+.esgiv-title p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    background-image: linear-gradient(90deg, #235803, #45892A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: color 2s ease-in-out, -webkit-text-fill-color 0.5s ease-in-out; /* Add transition for text color */
+}
+
+.esgiv-title.active {
+    background-image: linear-gradient(90deg, #235803, #45892A);
+}
+
+.esgiv-title.active p {
+    color: #ffffff;
+    background-image: none;
+    -webkit-text-fill-color: #ffffff;
+}
+
+
+.esgiv-tdata{
+    width: 95%;
+    margin: auto;
+    justify-content: space-evenly;
+    border: 2px solid  #45892A;
+    padding: 2%;
+    border-radius: 0 0 20px 20px;
+}
+.esgiv-innercard{
+    width: 20%;
+}
+.esgiv-innercard p{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 2% 6%;
+    border-radius: 0 20px 0 0;
+    background-image: linear-gradient(90deg, rgb(35, 88, 3, 0.3), rgb(69, 137, 42, 0.3));
+    margin: 0;
+    color: #235803
+}
+.esgiv-innercard ul{
+    text-align: left;
+    padding: 5% 10%;
+    background-image: linear-gradient(to bottom, #e3e1e1, #ffffff);
+    font-size: 18px;
+}
+.esgiv-innercard li{
+    list-style-type: disc;
+}
+/* ********************************************* */
+/* ESG iv CSS End */
+/* ********************************************* */
+/* ********************************************* */
+/* ESG v CSS Start */
+/* ********************************************* */
+.esg-v{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(211, 211, 211, 0.4);
+    margin: 5% 0;
+    padding: 2%;
+    text-align: left;
+}
+.esgv-content{
+    width: 50%;
+}
+.esgv-content h2{
+    font-size: 36px;
+}
+.esgv-content p{
+    font-size: 20px;
+    margin: 5% 0;
+
+}
+.esgv-img{
+    width: 40%;
+    display: flex;
+    align-items: baseline;
+    /* justify-content: right; */
+}
+.esgv-img img{
+    width: 100%;
+}
+.esgv-btn{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    /* justify-content: space-between; */
+    background-image: linear-gradient(90deg, #235803, #45892A);
+    color: white;
+    padding: 1.5% 5%;
+    border-radius: 50px 50px 50px 0;
+}
+
+/* ********************************************* */
+/* ESG v CSS End */
+/* ********************************************* */
+/* ********************************************* */
+/* ESG vi CSS Start */
+/* ********************************************* */
+.esg-vi{
+    width: 100%;
+    margin: 5% 0;
+    text-align: left;
+}
+.esgvi-r{
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+.esgvi-r p{
+    font-size: 20px;
+    margin: 5% 0;
+}
+.esgvi-r .esgvi-content{
+    width: 50%;
+}
+.esgvi-r .esgvi-img{
+    width: 40%;
+}
+.esgvi-r .esgvi-img img{
+    width: 100%;
+}
+/* ********************************************* */
+/* ESG vi CSS End */
+/* ********************************************* */
+/* ********************************************* */
+/* ESG vii CSS Start */
+/* ********************************************* */
+.esg-vii{
+    width: 100%;
+    padding: 2%;
+}
+.esg-vii h2{
+    margin-bottom: 4%;
+}
+.esgvii-r{
+    /* align-items: center; */
+    width: 95%;
+    margin: auto;
+    justify-content: space-evenly;
+    background-image: linear-gradient(90deg, #235803, #45892A);
+    padding: 3%;
+    border-radius: 26px;
+}
+.esgvii-card{
+    width: 16.66%;
+}
+.esgvii-img{
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 13px;
+    width: 90%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8%;
+}
+.esgvii-img img{
+    left: 50%;
+    /* width: 50%; */
+    height: 80%;
+}
+.engvii-content{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* padding: 2% 0; */
+}
+.engvii-content p{
+    margin: 5% 0;
+}
+/* ********************************************* */
+/* ESG vii CSS End */
+/* ********************************************* */
+/* ********************************************* */
+/* ESG viii CSS Start */
+/* ********************************************* */
+.esg-viii{
+    width: 100%;
+    /* height: 100vh; */
+
+    justify-content: center;
+}
+.india-map{
+    position: relative;
+
+    width: 70%;
+    height: 85%;
+    margin: 2% auto;
+}
+.esg-viii .india-map-img{
+    width: 100%;
+    filter: hue-rotate(250deg);
+    height: 100%;
+    left: 0%;
+    margin: auto;
+    /* position: absolute; */
+}
+.loc-pin{
+    position: absolute;
+    width: 7%;
+    /* height: 50px; */
+    z-index: 1;
+}
+.p1{
+    top: 40%;
+    left: 30%;
+}
+.p2{
+    top: 20%;
+    left: 45%;
+}
+.p3{
+    top: 35%;
+    left: 46%;
+}
+.p4{
+    top: 22%;
+    left: 25%;
+}
+.p5{
+    top: 29%;
+    left: 37%;
+}
+.p6{
+    top: 30%;
+    left: 20%;
+}
+.p7{
+    top: 50%;
+    left: 40%;
+}
+.p8{
+    top: 69%;
+    left: 37%;
+}
+
+/* ********************************************* */
+/* ESG viii CSS End */
+/* ********************************************* */
+
+.btn-posnawr-esg {
+    text-align: center;
+    text-decoration: none;
+    /* line-height: 80px; */
+    color: #45892A;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 10vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+    padding: 1.1vh;
+    z-index: 1;
+    /* height: 8vh; */
+    /* max-width: 250px; */
+    border-radius: 50px;
+    /* margin: 1rem auto; */
+    /* text-transform: uppercase; */
+    border: 1px solid #45892A;
+  }
+  .btn-posnawr-esg span {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 100%;
+    /* background-color: #45892A; */
+    background-image: linear-gradient(90deg, #235803, #45892A);
+    -webkit-transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  .btn-posnawr-esg:hover {
+    color: #eee;
+  }
+  .btn-posnawr-esg:hover span {
+    width: 225%;
+    height: 562.5px;
+  }
+  .btn-posnawr-esg:active {
+    background-color: #45892A;
+  }

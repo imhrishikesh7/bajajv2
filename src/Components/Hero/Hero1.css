@@ -1,0 +1,100 @@
+.hero-container {
+    /* background: linear-gradient(90deg, rgba(41,57,144,1) 41%, rgba(32,142,233,1) 100%); */
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* margin-top: 20%; */
+    margin: auto;
+    height: 90vh;
+    position: relative;
+}
+.curved-hero {
+    position: sticky;
+    top: 15%; 
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /* background: linear-gradient(90deg, rgba(41, 57, 144, 1) 41%, rgba(32, 142, 233, 1) 100%); */
+    background-image: url('/bg-box.jpg');
+    height: 85%;
+    width: 98%;
+    border-radius: 22px;
+    align-items: center;
+    justify-content: space-between;
+}
+.elements-wrap{
+    position: absolute;
+    width: 100%;
+}
+
+/* HERO CONTENT */
+.curved-hero .hero-content {
+    position: absolute;
+    z-index: 2;
+    left: 5%;
+    color: #fff;
+    margin-top: auto;    
+    width: fit-content;
+
+    height: fit-content;
+    text-align: left;
+
+    transform: translate(-50%, -50%); /* Center the hero content both horizontally and vertically */
+}
+.hero-content p{
+    width: 90%;
+    color: #fff;
+
+    /* margin: 3% 0; */
+    /* font-weight: ; */
+    font-size: 1rem;
+}
+.hero-content button{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    /* border: none; */
+    font-size: 0.8rem;
+    padding: 15px 20px;
+    border-radius: 50px;
+    letter-spacing: 0.1cqmin;
+    transition: all 0.3s ease-in-out;
+}
+.hero-content button:hover{
+    background-color: #fff;
+    color: #2B3DA1;
+}
+.hero-content h1 {
+    font-size: 3.6rem;
+    font-weight: 600;   
+}
+.hero-strip{
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-strip p{
+    width: fit-content;
+}
+.hero-strip p span{
+    font-weight: bold;
+}
+
+/* CAROUSEL */
+.appliances-slide{
+    position: absolute;
+    /* z-index: 2; */
+    top: calc(50% - 40%);
+    overflow: hidden;
+    right: 4%;
+    width: 42%;
+    height: 80%;
+}
+.appliances-slide img{
+    width: 100%;
+}
+.carousel-indicators [data-bs-target]{
+    display: none;
+} 

@@ -1,0 +1,155 @@
+.about-parent {
+    position: relative;
+    /* border: 2px solid #208ee9; */
+    /* border-radius: 20px; */
+    width: 100%;
+    /* height: 80vh; */
+    /* background-image: url('/bg-box.jpg'); */
+    /* background: linear-gradient(45deg, rgb(218, 218, 218), rgb(173, 210, 239)); */
+
+   background-color: rgb(211, 211, 211, 0.2);
+    padding: 2%;
+    /* ba */
+    margin: 5% auto;
+}
+
+.heading-bar-about{
+    align-items: center;
+    width: 90%;
+    /* padding: 0 1%; */
+    margin: auto;
+    justify-content: space-between;
+    text-align: justify;
+}
+.heading-bar-about-p2{
+    text-align: center;
+
+}
+.heading-bar-about .about-heading2{
+    font-weight: 600;
+    margin: 0;
+    display: inline-block;
+    font-size: 3vw;
+
+}
+.heading-bar-about .about-heading{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 3vw;
+    margin-left: 1vw;
+    background-image: linear-gradient(90deg in oklab, #2B3DA1 , #005eab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about-heading span{
+ color: black;
+}
+.heading-bar-about p{
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+}
+.about-poster-container{
+    width: 85%;
+    padding: 2% 0;
+    /* height: 0vh; */
+    position: relative;
+    /* height: 100vh; */
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.about-poster-container .about2{
+    position: relative;
+    right: 0;
+    /* top: 0; */
+    width: 51%;
+    border-radius: 30px;
+    /* height: 400px; */
+}
+.about-poster-container .about2 img{
+    border-radius: 30px;
+    width: 90%;
+    /* height: 100%; */
+}
+ .about1-wrapper{
+    position: relative;
+    /* left: -2%; */
+    /* top: 10%; */
+    width: 50%;
+    /* height: 20%; */
+    border-radius: 30px; /* Apply border radius to the entire image */
+}
+
+.cta-arrow {
+    position: absolute;
+    z-index: 2;
+    top: 4%;
+    right: 2%;
+    width: 10%;
+    cursor: pointer;
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+.cta-arrow2 {
+    position: absolute;
+    z-index: 2;
+    top: 4%;
+    right: 2%;
+    width: 10%;
+    cursor: pointer;
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+.cta-arrow-hover2 {
+    opacity: 0; /* Initially hide the hover image */
+    position: absolute;
+    z-index: 1; /* Ensure hover image is behind the regular arrow */
+    top: 4%;
+    right: 2%;
+    width: 10%;
+    cursor: pointer;
+    pointer-events: none; /* Prevent hover events on the hover image */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+/* .arrow-container {
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+} */
+.arrow-container2 {
+    position: absolute; /* Ensure proper positioning of arrow images */
+    width: 11%; /* Ensure the container spans the entire width of its parent */
+    height: 11%; /* Ensure the container spans the entire height of its parent */
+    right: 7%;
+    top: 3%;
+}
+
+/* .arrow-container:hover .cta-arrow {
+    opacity: 0;
+}
+.arrow-container:hover .cta-arrow-hover {
+    opacity: 1;
+} */
+.arrow-container2:hover .cta-arrow2 {
+    opacity: 0; /* Hide the regular arrow on hover */
+}
+.arrow-container2:hover .cta-arrow-hover2 {
+    opacity: 1; /* Show the hover image on hover */
+}
+.about1-text{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 18px;
+    font-size: 1.5em;
+    line-height: 1.2;
+    text-align: left;
+    padding: 2% 2%;
+    margin: 0;
+    left: 2%;
+    bottom: 4%;
+}
+.about-poster-container .about1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
