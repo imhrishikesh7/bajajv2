@@ -67,7 +67,8 @@ const Sustainability = ({ index }) => {
                                             delay: 0.20
                                         }
                                     }}>
-                                    Sustainability
+                                    Embracing sustainability <br />
+                                    Empowering communities
                                 </motion.h1>
                             </div>
                         </div>

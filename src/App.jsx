@@ -6,8 +6,6 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import Home from './Pages/Home/Home';
 import AboutUs from './Pages/About Us/AboutUs';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Discover from './Components/Discover/Discover';
-import Float from './Components/Float/Float';
 import BrandsBusiness from './Pages/Brands-and-Businesses/BrandsBusiness';
 import Footer from './Components/Footer/Footer';
 import Esg from './Pages/ESG/Esg';
