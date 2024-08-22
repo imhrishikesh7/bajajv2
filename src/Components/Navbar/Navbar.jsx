@@ -31,23 +31,31 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
                         <ul className="navbar-nav inter-bold mb-2 mb-lg-0 ul1">
                             <li className="nav-item ">
+                                <Link className="nav-link nav-link-ltr" aria-current="page" to="/">Home</Link>
+                            </li>
+                            <li className="nav-item ">
                                 <Link className="nav-link nav-link-ltr" aria-current="page" to="/about">About Us</Link>
                             </li>
                             <li className="nav-item ">
-                                <Link className="nav-link nav-link-ltr" to="/esg">Sustainability</Link>
+                                <Link className="nav-link nav-link-ltr" to="/brands-business">Our Brands</Link>
                             </li>
                             <li className="nav-item ">
-                                <Link className="nav-link nav-link-ltr" to="/brands-business">Brands</Link>
+                                <Link className="nav-link nav-link-ltr" to="/esg">CSR</Link>
                             </li>
+                            <li className="nav-item ">
+                                <Link className="nav-link nav-link-ltr" to="/esg">ESG</Link>
+                            </li>
+
                             <li className="nav-item ">
                                 <Link className="nav-link nav-link-ltr" to="/">Investors</Link>
-                            </li>
-                            <li className="nav-item ">
-                                <Link className="nav-link nav-link-ltr" to="/">Media</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link nav-link-ltr" to="/">Career</Link>
                             </li>
+                            <li className="nav-item ">
+                                <Link className="nav-link nav-link-ltr" to="/">Media</Link>
+                            </li>
+
                         </ul>
                         <ul className="navbar-nav inter-bold mb-2 mb-lg-0 ul2">
                             <li className="nav-item btn2">

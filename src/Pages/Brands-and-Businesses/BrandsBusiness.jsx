@@ -170,7 +170,85 @@ const BrandsBusiness = ({ index }) => {
                         <div className='cloudy-div'></div>
                     </div>
                 </motion.div>
-                <h1 className='bab-2-heading'>Welcome to Bajaj Electricals</h1>
+
+            </div>
+            <div className='brands-sec2'>
+                <h1 className='bab-2-heading mb-4'>Welcome to Bajaj Electricals</h1>
+                <div className='differentiate d-flex'>
+                    <div className='differ-l'>
+                        <h2>
+                            Differentiating with<br />
+                            customer-centric<br />
+                            offerings
+                        </h2>
+                        <img src="./brands-n-business/bab-differ-img.png" alt="" />
+                    </div>
+                    <div className='differ-r'>
+                        <div className='white-line-title align-items-center d-flex'>
+                            <div className='white-line'></div>
+                            <h3>
+                                Consumer products
+                            </h3>
+                        </div>
+                        <p>
+                            Bajaj Electricals’ differentiating multi- brand strategy - a first in the industry - is rooted in Consumer Centricity, Product Innovation, and Brand Reinvention. This unique approach underscores their commitment to meeting diverse consumer needs. By curating a diverse portfolio of brands under one roof, Bajaj Electricals is building its competitive edge and addressing varied consumer preferences effectively. This approach not only ensures relevance but also fosters a culture of continuous innovation, driving sustainable growth. As Bajaj Electricals continues its transformative journey, this strategic framework will be instrumental in solidifying its position as a leader in the fast-moving electrical goods industry.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div className='sec3-house'>
+                <div className='house-top'>
+                    <img src="./brands-n-business/house-top.png" alt="" />
+                    <div className='content-top'>
+                        <h3>Building a House of Brands</h3>
+                    </div>
+                </div>
+                <div className='house-mid'>
+                    <img src="./brands-n-business/house-mid.png" alt="" />
+                    <div className='content-mid d-flex'>
+                        <div className='h-gate gate-1'>
+                            <div className='gate-logo'>
+                                <img src="./brands-n-business/Bajaj Built for life 1.png" className='img-fluid' alt="" />
+                            </div>
+                            <div className='gate-img'>
+                                <img src="./brands-n-business/house-gate1.png" alt="" />
+                            </div>
+                        </div>
+
+                        <div className='h-gate gate-2'>
+                            <div className='gate-logo'>
+                                <img src="./brands-n-business/Nex 1.png" className='img-fluid' alt="" />
+                            </div>
+                            <div className='gate-img'>
+                                <img src="./brands-n-business/house-gate2.png" alt="" />
+                            </div>
+                        </div>
+
+                        <div className='h-gate gate-3'>
+                            <div className='gate-logo'>
+                                <img src="./brands-n-business/Morphy 1.png" className='img-fluid' alt="" />
+                            </div>
+                            <div className='gate-img'>
+                                <img src="./brands-n-business/house-gate3.png" alt="" />
+                            </div>
+                        </div>
+
+                        <div className='h-gate gate-4'>
+                            <div className='gate-logo'>
+                                <img src="./brands-n-business/Nirlep1.png" className='img-fluid' alt="" />
+                            </div>
+                            <div className='gate-img'>
+                                <img src="./brands-n-business/house-gate4.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                <div className='house-bottom'>
+                    <img src="./brands-n-business/house-bottom.png" alt="" />
+                    <div className='content-bottom'>
+                        <p>A Portfolio of Sharply Differentiated, Consumer-Centric Brands</p>
+                    </div>
+                </div>
+                </div>
             </div>
             <div className="gallery" style={{ backgroundColor: bgColor }}>
                 <div className='color-bg'></div>
@@ -233,7 +311,7 @@ const BrandsBusiness = ({ index }) => {
                         <div className='details-card dt4'>
                             <img src="/brands-n-business/bab-bri4.png" alt="" />
                             <p>
-                                Nirlep, a renowned brand in the world of non-stick cookware, stands out for its deep understanding of diverse cooking practices across India. With over 50 years of experience, Nirlep continues to redefine culinary experiences. With a relentless focus on modern lifestyles, the brand has pioneered advanced non-stick coatings and specialised heat-resistant cookware, delivering convenience and superior quality to our customers. 
+                                Nirlep, a renowned brand in the world of non-stick cookware, stands out for its deep understanding of diverse cooking practices across India. With over 50 years of experience, Nirlep continues to redefine culinary experiences. With a relentless focus on modern lifestyles, the brand has pioneered advanced non-stick coatings and specialised heat-resistant cookware, delivering convenience and superior quality to our customers.
                             </p>
                             {/* <a className='linka lb' href="https://www.nirlep.com/"><div class="btna bb"> Know More</div> </a> */}
                             <a

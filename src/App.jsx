@@ -11,6 +11,7 @@ import Float from './Components/Float/Float';
 import BrandsBusiness from './Pages/Brands-and-Businesses/BrandsBusiness';
 import Footer from './Components/Footer/Footer';
 import Esg from './Pages/ESG/Esg';
+import AboutUsNew from './Pages/About Us/AboutUsNew';
 
 function App() {
   return (
@@ -18,9 +19,8 @@ function App() {
       <BrowserRouter>
       <Navbar/>
         <Routes>
-       
           <Route exact path='/' element={<Home />} />
-          <Route path='/about' element={<AboutUs />} />
+          <Route path='/about' element={<AboutUsNew />} />
           <Route path='/esg' element={<Esg />} />
           <Route path='/brands-business' element={<BrandsBusiness/>} />
         </Routes>

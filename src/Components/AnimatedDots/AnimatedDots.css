@@ -1,0 +1,17 @@
+/* AnimatedDots.css */
+.dot-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 5px); /* Ensures the correct number of columns */
+    grid-template-rows: repeat(auto-fit, 5px); /* Ensures the correct number of rows */
+    gap: 10px; /* Controls the gap between dots */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dot {
+    width: 4px;
+    height: 4px;
+    background-color: grey;
+    border-radius: 50%;
+  }
+  

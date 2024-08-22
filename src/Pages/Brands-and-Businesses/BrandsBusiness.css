@@ -61,13 +61,10 @@
   }
 
 .bab-2-heading{
-    position: absolute;
+    /* position: absolute; */
     font-weight: 600;
     /* border: 2px solid black; */
     /* margin: 2% 0; */
-    bottom: -45%;
-    left: 50%;
-    transform: translate(-50%);
     display: inline-block;
     font-size: 3vw;   
     background-image: linear-gradient(90deg in oklab, #2B3DA1 , #005EAB);
@@ -342,3 +339,130 @@
   .btn-posnawr-bab:active {
     background-color: #0f68c9;
   }
+
+
+
+  .brands-sec2{
+    margin-top: 20%;
+  }
+  .differentiate{
+    background-image: linear-gradient(90deg in oklab, #2379db, #0b2c91);
+    border-radius: 20px;
+    width: 90%;
+    margin: auto;
+    padding: 4% 8%;
+    color: white;
+    text-align: left;
+    align-items: end;
+  }
+  .differ-l{
+    width: 50%;
+  }
+  .differ-l h2{
+    margin-bottom: 5%;
+    font-size: 3em;
+  }
+  .differ-l img{
+    width: 90%;
+  }
+  .differ-r{
+    width: 50%;
+  }
+  .differ-r h3{
+  font-size: 2.2em; 
+  }
+  .differ-r p{
+  font-size: 1.2em;    
+  }
+
+  .differ-r .white-line-title{
+    margin-bottom: 4%;   
+  
+  }
+  .differ-r .white-line-title .white-line{
+    width: 10%;
+    background-color: white;
+    height: 4px;
+    margin-right: 2%;
+    
+  }
+  
+  /* House CSS *********** */
+  .sec3-house{
+    width: 65%;
+    margin: 5% auto;
+  }
+  .sec3-house .house-top{
+    width: 95%;
+    margin: auto;
+    position: relative;
+  }
+  .sec3-house .house-top img{
+    width: 100%;
+  }
+  .sec3-house .house-top .content-top{
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+    color: white;
+  }
+  .sec3-house .house-mid{
+    width: 100%;
+    margin: auto;
+    position: relative;
+  }
+  .sec3-house .house-mid .content-mid{
+    width: 90%;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+  .sec3-house .house-mid .content-mid .h-gate{
+    width: 20%;
+  }
+  .sec3-house .house-mid .content-mid .h-gate img{
+    width: 100%;
+    height: 100%;
+  }
+  .sec3-house .house-mid img{
+    width: 100%;
+  }
+  .sec3-house .house-bottom{
+    position: absolute;
+    bottom: 0;
+  }
+  .sec3-house .house-bottom .content-bottom{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .sec3-house .house-bottom .content-bottom p{
+    margin: 0;
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+
+.gate-logo{
+  /* width: 50%; */
+  /* height: 10%; */
+  margin: auto;
+}
+.gate-logo img{
+  width: 100%;
+  height: 10%;
+}
+.h-gate{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.h-gate .gate-img{
+  margin-top: 5%;
+}

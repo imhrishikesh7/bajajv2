@@ -1,5 +1,5 @@
 .navbar {
-    position: fixed; /* Change from 'absolute' to 'fixed' */
+    position: sticky; /* Change from 'absolute' to 'fixed' */
     top: 0; /* Stick the navbar to the top */
     width: 100vw; /* Ensure the navbar spans the entire width of the viewport */
     z-index: 1000;
@@ -10,7 +10,8 @@
     /* margin-bottom: 20%; */
 }
 .navbar-hero-container{
-    position: fixed;
+    position: sticky;
+    top: 0;
     z-index: 1111;
 }
 .nav-link {

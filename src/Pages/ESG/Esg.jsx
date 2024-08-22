@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { easeInOut, motion, useAnimation, useInView } from 'framer-motion';
 import './Esg.css';
+import UniversalHeader from '../../Components/Universal Header/UniversalHeader';
 
 const Esg = () => {
 
@@ -133,10 +134,7 @@ const Esg = () => {
 
     const parentRef = useRef(null);
 
-    const sectionVariants = {
-        hidden: { opacity: 0, y: 50 },
-        visible: { opacity: 1, y: 0 },
-    };
+    
     const sectionVariants2 = {
         hidden: { opacity: 0, y: 100 },
         visible: { opacity: 1, y: 0 },
@@ -169,62 +167,22 @@ const Esg = () => {
         },
     };
 
-    const imageVariants = {
-        hidden: { opacity: 0, scale: 0.8 },
-        visible: (delay = 0.1) => ({
-            opacity: 1,
-            scale: 1,
-            transition: {
-                duration: 0.5,   // Duration of the individual image animations
-                ease: "easeInOut", // Apply an easing function
-                delay, // Delay before starting the animation
-            },
-        }),
-    };
-    const imageVariants2 = {
-        hidden: { opacity: 0, scale: 0.8 },
-        visible: (delay = 0.4) => ({
-            opacity: 1,
-            scale: 1,
-            transition: {
-                duration: 0.5,   // Duration of the individual image animations
-                ease: "easeInOut", // Apply an easing function
-                delay, // Delay before starting the animation
-            },
-        }),
-    };
+    const h1style = {
+        "background-image": "linear-gradient(90deg in oklab, #235803, #45892A)",
+        "-webkit-background-clip": "text",
+        "-webkit-text-fill-color": "transparent"
+    }
+    
     return (
         <div className='esg-container'>
-            <motion.div
-                className='esg-hero flex'
-                ref={esgRef}
-                initial="hidden"
-                animate={esgInView ? 'visible' : 'hidden'}
-                variants={sectionVariants}
-                transition={{ duration: 0.6 }}
-            >
-                <div className='esg-content'>
-                    <h1 className='esg-h1'>
-                        Building a Brighter, <br />More Sustainable Future
-                    </h1>
-                    <p className='esg-p'>
-                        Sustainability is a core value that guides our business decisions. We are minimising our environmental impact, from optimising resources in manufacturing to offering eco-friendly products to our customers. This focus on sustainability allows us to drive circularity, efficient waste management, water and energy conservation, while also empowering communities. By making sustainability a core value, we believe we can create a brighter future for all.
-                    </p>
-                </div>
-                <div className='esg-img'>
-                    <motion.img
-                        className='esg-img1'
-                        src="./esg/esg-img1.png" alt=""
-                        variants={imageVariants}
-                    />
-
-                    <motion.img
-                        className='esg-img2'
-                        src="./esg/esg-img2.png" alt=""
-                        variants={imageVariants2}
-                    />
-                </div>
-            </motion.div>
+            
+            <UniversalHeader ref={esgRef} esgInView={esgInView} 
+             h1text={"Building a Brighter,\n More Sustainable Future"}
+             ptext={"Sustainability is a core value that guides our business decisions. We are minimising our environmental impact, from optimising resources in manufacturing to offering eco-friendly products to our customers. This focus on sustainability allows us to drive circularity, efficient waste management, water and energy conservation, while also empowering communities. By making sustainability a core value, we believe we can create a brighter future for all."}
+             img1={"./esg/esg-img1.png"}
+             img2={"./esg/esg-img2.png"}
+             h1style={h1style}
+             />
 
             <div className='esg-container-ii'>
                 <h1 className='esg-h1'>ESG Strategy</h1>
