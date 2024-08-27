@@ -112,7 +112,7 @@ const About = ({ index }) => {
                         Bajaj Electricals</motion.h1>
 
                 </div>
-
+                <h2 style={{textAlign:"center",margin:"20px auto", marginBottom:"30px"}}>Shining Legacy, Brighter Tomorrow</h2>
                 <motion.p
                     className='inter-medium'
                     initial={{
@@ -128,7 +128,8 @@ const About = ({ index }) => {
                         }
                     }}
                 >
-                    Globally renowned Bajaj Electricals, part of $100bn Bajaj Group, excels in consumer appliances and <br />lighting solutions for nearly 85 years.</motion.p>
+                   Igniting innovation since 1940s, Bajaj Electricals shines bright as a global leader
+                   in consumer appliances and lighting solutions.</motion.p>
             </div>
             <a
                 className="btn-posnawr"

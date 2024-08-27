@@ -389,7 +389,8 @@ const Esg = () => {
                         <p>
                             We invest in community development initiatives like environmental sustainability projects, education, healthcare, and arts and culture. We consistently seek innovative ways to address societal needs, aligning our business operations with broader environmental and societal goals.
                         </p>
-                        {/* <motion.a
+                        {
+                        /* <motion.a
                             className='esgv-btn'
                             href="/"
                             ref={parentRef}
@@ -414,7 +415,8 @@ const Esg = () => {
                                     <polyline points="17 17 17 7 7 7"></polyline>
                                 </motion.svg>
                             </span>
-                        </motion.a> */}
+                        </motion.a> */
+                        }
                         
                         <a
                                 className="btn-posnawr-esg"
